@@ -9,7 +9,7 @@
 }
 
 .main-container{
-    max-width: 1536px;
+    max-width: 100vw;
     margin: 0 auto;
 }
 
@@ -163,6 +163,7 @@ nav ul li a:hover{
 /* about */
 
 .about{
+    width: 100%;
     padding: 70px 100px;
     margin: auto;
 }
@@ -231,6 +232,7 @@ nav ul li a:hover{
     bottom: 50px;
 }
 .skills{
+    width: 100%;
     padding: 70px 100px;
     background-color: var(--secondary-color);
     color: white;
@@ -316,7 +318,7 @@ nav ul li a:hover{
 .servises{
     margin: auto;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .services-name{
@@ -334,7 +336,7 @@ nav ul li a:hover{
 .cards{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin: 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -373,3 +375,59 @@ nav ul li a:hover{
     align-items: center;
     gap: 20px;
 }
+
+.info h3{
+    color: var(--primary-color);
+}
+
+/* /services */
+
+/* work */
+
+.work{
+    padding: 70px 100px;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+.main-work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 100%;
+}
+
+.work-img{
+    width: 320px;
+    height: 260px;
+    background-color: yellow;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.work-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+}
+
+.work-img img:hover{
+    transform: scale(1.2);
+}
+
+.button-area{
+    margin-top: 100px;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+/* /work */
