@@ -8,6 +8,11 @@
     scroll-behavior: smooth;
 }
 
+.main-container{
+    max-width: 1536px;
+    margin: 0 auto;
+}
+
 body{
     max-width: 100vw;
 }
@@ -16,6 +21,10 @@ body{
     --primary-color: crimson;
     --secondary-color: #000016;
 }
+
+
+
+
 /* headerni boshladik */
 header {
     color: white;
@@ -154,7 +163,8 @@ nav ul li a:hover{
 /* about */
 
 .about{
-    margin: 70px 100px;
+    padding: 70px 100px;
+    margin: auto;
 }
 
 .section-name{
@@ -193,6 +203,10 @@ nav ul li a:hover{
     gap: 150px;
 }
 
+.img-div{
+    width:50%;
+}
+
 .about-me img{
     border-radius: 15px;
     width: 100%;
@@ -201,7 +215,7 @@ nav ul li a:hover{
 }
 
 .about-text{
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -220,6 +234,7 @@ nav ul li a:hover{
     padding: 70px 100px;
     background-color: var(--secondary-color);
     color: white;
+    height: 100vh;
 }
 
 .skills-text{
@@ -292,4 +307,64 @@ nav ul li a:hover{
 .reactjs{
     background-color: blueviolet;
     width: 65%;
+}
+
+/* /skills */
+
+/* services */
+
+.servises{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.services-name{
+    position: relative;
+    right: 12px;
+}
+
+.services-main{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.cards{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background: #fff;
+    width: 300px;
+    /* margin: 10px; */
+    display: flex;
+    text-align: center;
+    gap: 35px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    
+}
+
+.card i{
+    color: var(--primary-color);
+    font-size: 120px;
+    margin-top: 40px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
